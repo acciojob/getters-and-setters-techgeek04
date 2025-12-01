@@ -1,6 +1,6 @@
 //complete this code
 class Person {
-	constructor(name: string, age: number){
+	constructor(name, age){
 		this.name = name;
 		this.age = age;
 	}
@@ -15,14 +15,12 @@ class Person {
 }
 
 class Student extends Person {
-	super(name: string, age: number);
 	study(){
 		return this.name + " is studying";
 	}
 }
 
 class Teacher extends Person {
-	super(name: string, age: number);
 	teach(){
 		return this.name + " is teaching"
 	}
